@@ -1,0 +1,155 @@
+:root {
+    --second-gray: #c0c0c0;
+    --blue-buttom: #167Bf7;
+    --main-background: #00030C;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--main-background);
+    color: white;
+}
+
+.cabecalho {
+    background-image: url("../img/Background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container__cabecalho {
+    height: 680px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container__divisoria {
+    width: 588px;
+    height: 431px;
+    margin-left: 54px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cabecalho__titulo {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.cabecalho__combo {
+    margin: 5px 0 5px 0;
+}
+
+.container__botao--destaque {
+    background-color: var(--blue-buttom);
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    width: 80%;
+    padding: 5px;
+    line-height: 2.5rem;
+    margin: 5px 0 5px 0;
+}
+
+.container__botao {
+    background-color: none;
+    border-radius: 5px;
+    border: white solid 1px;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    width: 80%;
+    padding: 5px;
+    line-height: 2.5rem;
+    margin: 5px 0 5px 0;
+}
+
+.observacao {
+    color: var(--second-gray);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.secao__conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 90px 0 90px;
+    align-items: center;
+    gap: 30vh 40px;
+}
+
+.titulo__conteudo {
+    font-weight: 700;
+    font-size: 48px;
+    margin: 8px 0 8px 0;
+}
+
+.texto__conteudo {
+    color: var(--second-gray);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.botao__destaque--conteudo {
+    background-color: var(--blue-buttom);
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    line-height: 2.5rem;
+    margin: 5px 0 5px 0;
+}
+
+.secao__dispositivos {
+    margin: 30vh 0 30vh 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 80px;
+    row-gap: 150px;
+}
+
+.titulo__conteudo--dispositivos {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.legenda__dispositivos {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.secao__dispotivos--tipo1, .secao__dispotivos--tipo2, .secao__dispotivos--tipo3 {
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__lista {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 50px 100px 0 100px;
+}
+
+.rodape__lista--link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 250;
+}
+
+.rodape__paragrafo {
+    color: var(--second-gray);
+    font-size: 10px;
+    margin: 20px 180px 0 180px;
+}
